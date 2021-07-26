@@ -1,9 +1,11 @@
 x = int(input('學生數量'))
-z = 0
+y = 0
 a = []
 for i in range(x):
-    y = int(input('學生成績')
-    a.append(y)
-    z = (z+y)
+    z = int(input('學生成績'))
+    a.append(z)
+    y = y+z
 print(a)
-print(float(z/x))
+print(float(y/x))
+for i in a:
+    print(i)
